@@ -1,0 +1,10 @@
+set_1={1,2,3,4,5,4,32,2,1}
+print(set_1)
+hero=set({"venkatesh", "hero", "python", "venkatesh"})
+print(hero)
+added_hero=hero.add("kick")
+print(hero)
+removed_hero=hero.remove("kick")
+print(hero)
+ascii_hero=sorted(set_1)
+print(ascii_hero)
